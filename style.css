@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0:
+    }
+    .main-Div{
+        padding: 100px;
+        /* margin: 50px; */
+    }
+    .manu{
+        background-color: black;
+        text-align: center;
+    }
+.manu ul{
+    background-color: black;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    
+}
+.manu ul li{
+    margin-left: -4px;
+    padding: 10px;
+    margin: 0;
+    padding: 10;
+  
+}
+.manu ul li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5;
+    text-align: center;
+}
+.banner{
+    
+    text-align: center;
+    /* padding: 20px 0; */
+    background-color:#dddd ;
+    padding: 15px 0px;
+    
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.d2{
+    background-image: url(pic1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+
+}
+.box1{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 30px 20px;
+    line-height: 30px;
+}
+.box1 li{
+    list-style: none;
+}
+.box2{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin: 0 50px;
+    padding:30px 20px;
+    line-height: 30px;;
+}
+.box2 li{
+    list-style: none;
+}
+.box3{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 30px 20px;
+    line-height: 30px;
+
+}
+.box3 li{
+    list-style: none;
+}
+.d2{
+    text-align: center;
+    padding-top: 150px;
+}
+.box1 li::before{
+    content: '\f6af';
+    font-family: 'Font Awesome 5 Brands';
+    margin-right: 10px;
+}
+
+.box2 li::before{
+    content: '\f5d2';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    margin-right: 10px;
+}
+.box2 li::after{
+    content: '\f5d2';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    margin-left: 10px;
+}
+.box3 li::before{
+    content: '\f2a2';
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 10px;
+    font-weight: 600;
+}
+.footer-div{
+    background-color: black;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+span{
+    color: white;
+}
+.footer-div {}
+.footer-div ul{
+    list-style: none;
+}
+.footer-div ul li{
+    display: inline-block;
+}
+.footer-div ul li a{
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    line-height: 60px;
+    color: black;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    font-size: 25px;
+}
